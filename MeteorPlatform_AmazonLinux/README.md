@@ -11,3 +11,16 @@ EB CLI, and APIs/SDKs as "Sample NodeJs Container".
 
 For further information on custom platforms, see the
 [Custom Platforms docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/custom-platforms.html).
+
+Start a Micro machine in the same region and account with the EBS and SSH into it.
+Install EB CLI
+
+```
+pip install --upgrade --user awsebcli
+
+export PATH=$PATH:$HOME/.local/bin
+
+git clone https://...this sameple app.
+
+```
+

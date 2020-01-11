@@ -18,15 +18,15 @@ metadata:
   description: Container for Activitree Meteor >1.9
   operating_system_name: Amazon linux
   operating_system_version: 2018.03.0
-  # programming_language_name: ECMAScript
-  # programming_language_version: ECMA-262
-  # framework_name: NodeJs
-  # framework_version: 12.14.0
+  programming_language_name: ECMAScript
+  programming_language_version: ECMA-262
+  framework_name: NodeJs
+  framework_version: 12.14.0
   app_server_name: "none"
   app_server_version: "none"
 
 option_definitions:
   - namespace: "aws:elasticbeanstalk:container:custom:application"
-    # option_name: "NPM_START"
-    # description: "Default application startup command"
-    # default_value: "node application.js"
+    option_name: "NPM_START"
+    description: "Default application startup command"
+    default_value: "node application.js"
