@@ -1,7 +1,7 @@
 Node_CustomPlatform_AmazonLinux
 ===============================
 This repository contains the source for an Elastic Beanstalk Custom Platform.
-This custom platform is based on **Amazon Linux 2016.09.1** and supports **Node.js 4.4.4**.
+This custom platform is based on **Amazon Linux 2018.03.0** and supports **Node.js 12.14.0**.
 
 See the Packer template, *custom_platform.json*, for details on the AMI and
 scripts that the builder runs as it creates the custom platform.

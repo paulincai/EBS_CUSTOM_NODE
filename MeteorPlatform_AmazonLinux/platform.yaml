@@ -21,7 +21,7 @@ metadata:
   # programming_language_name: ECMAScript
   # programming_language_version: ECMA-262
   # framework_name: NodeJs
-  # framework_version: 4.4.4
+  # framework_version: 12.14.0
   app_server_name: "none"
   app_server_version: "none"
 
